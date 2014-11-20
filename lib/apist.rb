@@ -1,7 +1,9 @@
 require "apist/version"
 
 module Apist
-  def test
-    'test'
+  class << self
+    def test
+      'test'
+    end
   end
 end
