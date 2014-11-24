@@ -4,7 +4,7 @@ require 'apist/selector'
 
 class Apist
 
-  VERSION = '0.0.1'
+  VERSION = '1.0.0'
 
   @base_url = nil
 
