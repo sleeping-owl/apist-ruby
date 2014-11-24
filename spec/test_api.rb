@@ -32,4 +32,15 @@ class TestApi < Apist
         featured_article: filter('#mp-tfa').html
   end
 
+  def query
+    post '/test.php', nil,
+        query: {
+            first: 1
+        },
+        body: {
+            first: 1,
+            second: 2
+        }
+  end
+
 end

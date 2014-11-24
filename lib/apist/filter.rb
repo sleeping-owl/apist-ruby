@@ -88,7 +88,7 @@ class Apist
     # @return [Apist::Filter]
     def attr(attribute)
       guard_crawler
-      @node.attr attribute
+      @node.attr(attribute).to_s
     end
 
     # @return [Apist::Filter]

@@ -39,7 +39,15 @@ class Apist
         url = @content.request.last_uri.to_s
         raise Apist::Error::Http.new(code, message, url)
       end
+      store_cookies
       set_content @content.body
+    end
+
+    def store_cookies
+      cookie = @content.headers['Set-Cookie']
+      unless cookie.nil?
+        @resource.requester.class.default_cookies.add_cookies cookie
+      end
     end
 
     def set_content(content)
