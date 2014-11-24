@@ -1,6 +1,6 @@
 require 'httparty'
 
-module Apist
+class Apist
   class Request
     include HTTParty
 

@@ -1,4 +1,10 @@
 source 'https://rubygems.org'
-
-# Specify your gem's dependencies in apist.gemspec
 gemspec
+
+gem 'httparty'
+
+group :development, :test do
+  gem 'bundler'
+  gem 'rake'
+  gem 'rspec'
+end
