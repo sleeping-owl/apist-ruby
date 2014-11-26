@@ -99,11 +99,11 @@ Or install it yourself as:
 
 ## Documentation
 
-Documentation can be found at [sleeping owl apist](http://sleeping-owl-apist.gopagoda.com).
+Documentation can be found at [sleeping owl apist](http://sleeping-owl-apist.gopagoda.com/en/ruby/documentation).
 
 ## Examples
 
-View [examples](http://sleeping-owl-apist.gopagoda.com/#examples).
+View [examples](http://sleeping-owl-apist.gopagoda.com/en/ruby#examples).
 
 ## Support Library
 

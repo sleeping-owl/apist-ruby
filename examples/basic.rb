@@ -23,8 +23,17 @@ class WikiApi < Apist
         featured_article: filter('#mp-tfa').html
   end
 
+  def current_events
+    get '/wiki/Portal:Current_events',
+        filter('#mw-content-text > table:last td:first table.vevent').each(
+            date: filter('.bday').text,
+            events: filter('dl').each.text
+        )
+  end
+
+
 end
 
 api = WikiApi.new
-data = api.index
+data = api.current_events
 puts JSON.pretty_generate data
