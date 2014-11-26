@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["owl.sleeping@yahoo.com"]
   spec.summary       = %q{Package to provide api-like access to foreign sites based on html parsing}
   spec.description   = %q{Package to provide api-like access to foreign sites based on html parsing}
-  spec.homepage      = "http://sleeping-owl-apist.gopagoda.com"
+  spec.homepage      = "http://sleeping-owl-apist.gopagoda.com/en/ruby/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

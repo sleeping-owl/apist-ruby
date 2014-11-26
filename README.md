@@ -1,5 +1,7 @@
 ## SleepingOwl Apist
 
+[![Gem Version](https://badge.fury.io/rb/apist.svg)](http://badge.fury.io/rb/apist)
+
 SleepingOwl Apist is a small library which allows you to access any site in api-like style, based on html parsing.
 
 ## Overview
